@@ -1,0 +1,42 @@
+.benefits
+    height: 473px
+    padding: 65px 0 65px 0
+    background-color: #F6F6F6
+    display: flex
+    flex-direction: column
+    &__wrapper
+        margin-top: 65px
+        display: flex
+        justify-content: space-around
+    &__item
+        width: 33%
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__icon
+        display: flex
+        justify-content: center
+    &__subtitle
+        margin-top: 35px
+        height: 29px
+        font-weight: 700
+        font-size: 18px
+        line-height: 29px
+        display: flex
+        justify-content: center
+        text-align: center
+    &__descr
+        margin-top: 20px
+        width: 270px
+        height: 90px
+        font-weight: 300
+        font-size: 14px
+        line-height: 18px
+        text-align: center
+        a
+            color: red
+    &__icon
+        &_animated
+            animation: heartbeat 1.5s ease infinite
+            &:hover
+                animation-play-state: paused
